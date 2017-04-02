@@ -109,6 +109,14 @@ namespace WindowsCSharpFinal.ViewModels
             //assign the other commands to their actions
             JobCommand = new RelayCommand(ExecuteJobCommand);
             GiftCommand = new RelayCommand(ExecuteGiftCommand);
+            //create and start the timers
+            StartTimers();
+            //set your partner's default text
+            PartnerText = Constants.DEFAULT_TEXT;
+        }
+
+        private void StartTimers()
+        {
             //make a couple timers for the happiness depletion and job disabled delay
             happinessTimer = new DispatcherTimer();
             happinessTimer.Tick += AdjustHappiness;
@@ -118,15 +126,15 @@ namespace WindowsCSharpFinal.ViewModels
             jobTimer.Tick += JobButtonReset;
             jobTimer.Interval = TimeSpan.FromMilliseconds(Constants.JOB_DISABLED_DELAY);
             jobTimer.Start();
-            //set your partner's default text
-            PartnerText = Constants.DEFAULT_TEXT;
         }
 
         //reset the job button after the specified interval elapses
         private void JobButtonReset(object sender, object e)
         {
             if (!JobButtonIsEnabled)
+            {
                 JobButtonIsEnabled = true;
+            }
             jobTimer.Stop();
         }
 
@@ -137,9 +145,13 @@ namespace WindowsCSharpFinal.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Partner"));
             //check how unhappy your partner is and respond
             if (Partner.Happiness < Constants.HOPELESSNESS_TRIGGER_LVEL)
+            {
                 PartnerText = Constants.HOPELESS_TEXT;
+            }
             else if (Partner.Happiness < Constants.UNHAPPINESS_TRIGGER_LEVEL)
+            {
                 PartnerText = Constants.UNHAPPY_TEXT;
+            }
         }
 
         //take money when a gift is bought

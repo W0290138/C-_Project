@@ -99,14 +99,17 @@ namespace WindowsCSharpFinal.ViewModels
 
         private void PerformFiltering()
         {
+            //if the filter is null, initialize it
             if (_Filter == null)
             {
                 _Filter = "";
             }
+            //make sure to convert to lower case because search is case insensitive
             var lowerCaseFilter = Filter.ToLowerInvariant().Trim();
             var result = allPartners.Where(
                 partner => partner.Name.ToLowerInvariant()
                         .Contains(lowerCaseFilter)).ToList();
+            //remove from the public list anything that doesn't match the search
             var toRemove = Partners.Except(result).ToList();
             foreach (var note in toRemove)
             {
