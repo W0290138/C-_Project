@@ -121,7 +121,13 @@
     <None Include="WindowsCSharpFinal_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Art_Vandelay - Copy.png" />
+    <Content Include="Images\Art_Vandelay.jpg" />
     <Content Include="Images\bobDan.jpg" />
+    <Content Include="Images\Chole.jpg" />
+    <Content Include="Images\EvanBf.png" />
+    <Content Include="Images\EvanGf.png" />
+    <Content Include="Images\Jane_Dough.png" />
     <Content Include="Images\joeSmith.jpg" />
     <Content Include="Images\steveMacDonald.jpg" />
     <Content Include="Properties\Default.rd.xml" />
