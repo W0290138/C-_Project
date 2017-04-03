@@ -121,6 +121,7 @@
     <None Include="WindowsCSharpFinal_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\american_flag.jpg" />
     <Content Include="Images\Art_Vandelay - Copy.png" />
     <Content Include="Images\Art_Vandelay.jpg" />
     <Content Include="Images\bobDan.jpg" />

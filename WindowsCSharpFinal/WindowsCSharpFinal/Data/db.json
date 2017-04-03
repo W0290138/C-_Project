@@ -50,6 +50,14 @@
       "Description": "Dont tell ben",
       "Happiness": 100,
       "id": "6"
+    },
+    {
+      "Id": 7,
+      "Name": "'Murca",
+      "ImagePath": "american_flag.jpg",
+      "Description": "A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.",
+      "Happiness": 100,
+      "id": "7"
     }
   ]
 }
