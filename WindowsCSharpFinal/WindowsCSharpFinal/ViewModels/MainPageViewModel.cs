@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace WindowsCSharpFinal.ViewModels
 {
-    class MainPageViewModel : INotifyPropertyChanged
+    public class MainPageViewModel : INotifyPropertyChanged
     {
         private List<Partner> allPartners;
         public ObservableCollection<Partner> Partners { get; set; } = new ObservableCollection<Partner>();

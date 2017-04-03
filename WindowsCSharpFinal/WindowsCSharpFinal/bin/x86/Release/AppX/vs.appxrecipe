@@ -10,13 +10,13 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6bb3e67d-09bc-4bb4-9f5f-531295445334</PackageIdentityName>
     <PackageIdentityPublisher>CN=Davis</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>6E8F3BABB240731C6CEE96B3AEB0A4A6228B78D7046F0D5ADFECE576AA6D65BD</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>BAD2203E91368DA5F0A529F16D4BFC68FAB0BE08FA91BCA80A6977B0BCDF7881</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6bb3e67d-09bc-4bb4-9f5f-531295445334_1.0.0.0_x86__zx2pvcw2kb6dp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6bb3e67d-09bc-4bb4-9f5f-531295445334_zx2pvcw2kb6dp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6bb3e67d-09bc-4bb4-9f5f-531295445334</RegisteredPackageID>
@@ -25,79 +25,107 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-29T19:07:48.662</Modified>
+      <Modified>2017-04-03T06:10:55.920</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T21:30:08.000</Modified>
+      <Modified>2017-04-03T02:19:17.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-06-14T00:51:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\bobDan.jpg">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\american_flag.jpg">
+      <PackagePath>Images\american_flag.jpg</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\Art_Vandelay - Copy.png">
+      <PackagePath>Images\Art_Vandelay - Copy.png</PackagePath>
+      <Modified>2017-04-03T02:19:17.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\Art_Vandelay.jpg">
+      <PackagePath>Images\Art_Vandelay.jpg</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\bobDan.jpg">
       <PackagePath>Images\bobDan.jpg</PackagePath>
-      <Modified>2017-03-28T16:57:58.000</Modified>
+      <Modified>2017-04-03T02:19:17.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\joeSmith.jpg">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\Chole.jpg">
+      <PackagePath>Images\Chole.jpg</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\EvanBf.png">
+      <PackagePath>Images\EvanBf.png</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\EvanGf.png">
+      <PackagePath>Images\EvanGf.png</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\Jane_Dough.png">
+      <PackagePath>Images\Jane_Dough.png</PackagePath>
+      <Modified>2017-04-03T02:19:17.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\joeSmith.jpg">
       <PackagePath>Images\joeSmith.jpg</PackagePath>
-      <Modified>2017-03-28T16:57:58.000</Modified>
+      <Modified>2017-04-03T02:19:17.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\steveMacDonald.jpg">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\Images\steveMacDonald.jpg">
       <PackagePath>Images\steveMacDonald.jpg</PackagePath>
-      <Modified>2017-03-28T16:57:58.000</Modified>
+      <Modified>2017-04-03T02:19:17.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-29T19:06:49.875</Modified>
+      <Modified>2017-04-03T06:05:13.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.dll">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.dll">
       <PackagePath>WindowsCSharpFinal.dll</PackagePath>
-      <Modified>2017-03-29T19:07:47.605</Modified>
+      <Modified>2017-04-03T06:10:54.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.exe">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.exe">
       <PackagePath>WindowsCSharpFinal.exe</PackagePath>
-      <Modified>2017-03-29T19:07:48.309</Modified>
+      <Modified>2017-04-03T06:10:55.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\SchoolProjects\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.pdb">
+    <AppxPackagedFile Include="C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\bin\x86\Release\ilc\WindowsCSharpFinal.pdb">
       <PackagePath>WindowsCSharpFinal.pdb</PackagePath>
-      <Modified>2017-03-29T19:07:48.298</Modified>
+      <Modified>2017-04-03T06:10:55.534</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

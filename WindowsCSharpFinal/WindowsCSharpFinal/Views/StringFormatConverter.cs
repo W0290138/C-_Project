@@ -8,7 +8,7 @@ using Windows.UI.Xaml.Data;
 namespace WindowsCSharpFinal.Views
 {
     //http://www.mobilemotion.eu/?p=1680
-    class StringFormatConverter : IValueConverter
+    public class StringFormatConverter : IValueConverter
     {
         public string StringFormat { get; set; }
 

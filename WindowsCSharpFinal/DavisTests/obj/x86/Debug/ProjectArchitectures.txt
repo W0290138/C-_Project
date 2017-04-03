@@ -1,0 +1,2 @@
+C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\DavisTests\DavisTests.csproj;x86
+C:\Users\Davis\Source\Repos\C-_Project\WindowsCSharpFinal\WindowsCSharpFinal\WindowsCSharpFinal.csproj;x86

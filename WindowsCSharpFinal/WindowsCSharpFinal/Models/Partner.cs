@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsCSharpFinal.Models
 {
-    class Partner
+    public class Partner
     {
         public int Id { get; set; }
         public string Name { get; set; }

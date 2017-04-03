@@ -9,7 +9,7 @@ using WindowsCSharpFinal.ViewModels.Navigation;
 
 namespace WindowsCSharpFinal.Views
 {
-    class NavigationService : INavigationService
+    public class NavigationService : INavigationService
     {
         public void Navigate(Type page)
         {

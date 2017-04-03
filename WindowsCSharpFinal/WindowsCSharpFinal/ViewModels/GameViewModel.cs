@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace WindowsCSharpFinal.ViewModels
 {
-    class GameViewModel : INotifyPropertyChanged
+    public class GameViewModel : INotifyPropertyChanged
     {
         private User _User;
         public User User

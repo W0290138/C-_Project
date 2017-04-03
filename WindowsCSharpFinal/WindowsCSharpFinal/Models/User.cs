@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsCSharpFinal.Models
 {
-    class User
+    public class User
     {
         public int Money { get; set; }
     }

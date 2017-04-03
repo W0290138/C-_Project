@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace WindowsCSharpFinal.ViewModels.Commands
 {
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
         private readonly Predicate<object> _CanExecute;
