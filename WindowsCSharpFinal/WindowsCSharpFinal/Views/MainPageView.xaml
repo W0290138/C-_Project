@@ -11,7 +11,8 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock
 					Text="{Binding Name, Mode=OneWay}"
-					Width="Auto"/>
+					Width="Auto"
+                    TextWrapping="Wrap"/>
             </StackPanel>
         </DataTemplate>
     </Page.Resources>
@@ -84,7 +85,8 @@
             <TextBlock
                 Text="{Binding SelectedPartner.Description, Mode=OneWay}"
                 Padding="10"
-                FontSize="24"/>
+                FontSize="24"
+                TextWrapping="Wrap"/>
         </Border>
     </Grid>
 </Page>
