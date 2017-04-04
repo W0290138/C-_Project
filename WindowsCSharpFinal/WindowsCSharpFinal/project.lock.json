@@ -326,6 +326,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Node.js/5.3.0": {
+        "type": "package"
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2516,6 +2519,9 @@
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
+      },
+      "Node.js/5.3.0": {
+        "type": "package"
       },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
@@ -4845,6 +4851,9 @@
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
+      },
+      "Node.js/5.3.0": {
+        "type": "package"
       },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
@@ -7215,6 +7224,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Node.js/5.3.0": {
+        "type": "package"
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9552,6 +9564,9 @@
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
+      },
+      "Node.js/5.3.0": {
+        "type": "package"
       },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
@@ -11928,6 +11943,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Node.js/5.3.0": {
+        "type": "package"
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14265,6 +14283,9 @@
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
+      },
+      "Node.js/5.3.0": {
+        "type": "package"
       },
       "runtime.aot.System.Collections/4.3.0": {
         "type": "package",
@@ -16680,6 +16701,21 @@
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
         "tools/install.ps1"
+      ]
+    },
+    "Node.js/5.3.0": {
+      "sha512": "WebrKeV0cXE4TaYriZQfDRNO/UMYnlQgR/CrHEx4kLgiRsY6F0Ve2UVS7qDHQHAjj/KXo3ygJY6HDhf91hwJDw==",
+      "type": "package",
+      "path": "Node.js/5.3.0",
+      "files": [
+        "Node.js.5.3.0.nupkg.sha512",
+        "Node.js.nuspec",
+        "content/.bin/node.cmd",
+        "node.exe",
+        "readme.txt",
+        "tools/bin_tools.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -22721,8 +22757,11 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.3",
-      "Newtonsoft.Json >= 10.0.1"
+      "Newtonsoft.Json >= 10.0.1",
+      "Node.js >= 5.3.0"
     ],
     "UAP,Version=v10.0": []
-  }
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
 }

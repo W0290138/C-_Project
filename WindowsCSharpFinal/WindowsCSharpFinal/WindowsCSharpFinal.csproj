@@ -125,9 +125,11 @@
     <Content Include="Images\Art_Vandelay - Copy.png" />
     <Content Include="Images\Art_Vandelay.jpg" />
     <Content Include="Images\bobDan.jpg" />
+    <Content Include="Images\Boy.png" />
     <Content Include="Images\Chole.jpg" />
     <Content Include="Images\EvanBf.png" />
     <Content Include="Images\EvanGf.png" />
+    <Content Include="Images\Girl.png" />
     <Content Include="Images\Jane_Dough.png" />
     <Content Include="Images\joeSmith.jpg" />
     <Content Include="Images\steveMacDonald.jpg" />
@@ -158,6 +160,11 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties project_1json__JSONSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

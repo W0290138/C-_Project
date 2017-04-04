@@ -1,6 +1,6 @@
 {
   "User": {
-    "Money": 1000
+    "Money": 550
   },
   "Partners": [
     {
@@ -40,7 +40,7 @@
       "Name": "Ned Bed",
       "ImagePath": "EvanBf.png",
       "Description": "Please please be gentle with me. I am very scared",
-      "Happiness": 87,
+      "Happiness": 97,
       "id": "5"
     },
     {
@@ -58,6 +58,22 @@
       "Description": "A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.",
       "Happiness": 100,
       "id": "7"
+    },
+    {
+      "Id": 8,
+      "Name": "Ty Sauce",
+      "ImagePath": "Boy.png",
+      "Description": "The original meme bean.",
+      "Happiness": 81,
+      "id": "8"
+    },
+    {
+      "Id": 9,
+      "Name": "Christina Aguilara",
+      "ImagePath": "Girl.png",
+      "Description": "She's the real thing",
+      "Happiness": 100,
+      "id": "9"
     }
   ]
 }
